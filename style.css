@@ -1,0 +1,56 @@
+h1,h2,h3 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
+    h1, h2 {
+      margin: 0;
+      padding: 0;
+      text-shadow: 1px 1px 2px rgb(4, 84, 150), 0 0 1em rgb(255, 0, 0), 0 0 0.2em blue;
+    }
+    h3 {
+      font-size: 1.5  em;
+      text-shadow: 1px 1px 2px rgb(130, 48, 90);
+    }
+    body {margin:0;}
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #030303;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #0000004a;
+    }
+    
+    .active {
+      background-color: #12d604d9;
+    }
+  html, body{
+    background-color: rgb(97, 108, 153) ;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
